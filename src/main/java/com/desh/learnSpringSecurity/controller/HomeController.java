@@ -10,6 +10,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String greetPage(HttpServletRequest request) {
-        return "Hello People" + request.getSession().getId();
+        return "Hello People" + request.getSession().getId(); // getting session it
     }
 }
